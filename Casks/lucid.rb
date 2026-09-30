@@ -10,6 +10,6 @@ cask "lucid" do
   app "Lucid.app"
 
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-cr", "Lucid.app"], base: :appdir
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Lucid.app"]
   end
 end
