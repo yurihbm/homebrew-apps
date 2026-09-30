@@ -7,9 +7,9 @@ cask "keyboard-clean-tool" do
   desc "Temporarily disable your keyboard so you can clean it"
   homepage "https://github.com/yurihbm/keyboard-clean-tool"
 
-  app "KeyboardCleanTool.app"
+  app "Keyboard Clean Tool.app"
 
   postflight_steps do
-    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/KeyboardCleanTool.app"]
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Keyboard Clean Tool.app"]
   end
 end
