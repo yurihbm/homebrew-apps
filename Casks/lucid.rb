@@ -9,7 +9,7 @@ cask "lucid" do
 
   app "Lucid.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Lucid.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "Lucid.app"], base: :appdir
   end
 end
