@@ -1,6 +1,6 @@
 cask "keyboard-clean-tool" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.0"
+  sha256 "3cec03095d4edca79e943e292b8b7445350e0003f117ebb4d30117ab07c8bab4"
 
   url "https://github.com/yurihbm/keyboard-clean-tool/releases/download/v#{version}/KeyboardCleanTool.zip"
   name "Keyboard Clean Tool"
