@@ -1,6 +1,6 @@
 cask "lucid" do
   version "0.1.0"
-  sha256 "ce4725c60fa9b4ab8dceda5420e005491ffb5e568dae2480416623ebbea49693"
+  sha256 "ec43c048d56a50deb1f4743b34dc91fa9d737967715fc0fa6fe3fadeb506f1e4"
 
   url "https://github.com/yurihbm/lucid/releases/download/v#{version}/Lucid.zip"
   name "Lucid"
